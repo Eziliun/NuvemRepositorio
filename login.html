@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                max-width: 260px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="http://localhost:8080/login">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" placeholder="Username">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Password">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </body>
+</html>
